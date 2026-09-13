@@ -1,47 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charity Water Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A charity: water college campaign encouraging students to make a small gift toward clean water projects.">
+  <title>A Small Gift Can Go Far | charity: water</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
-    <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="charity: water home">
+        <img src="img/charity-water-logo.png" alt="charity: water">
+      </a>
+
+      <div class="campaign-label" aria-label="College campaign">
+        <strong>COLLEGE CAMPAIGN</strong>
+        <span>College campaign landing page</span>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero: based on the original Canva landing-page mockup -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">COLLEGE STUDENTS FOR CLEAN WATER</p>
+
+        <h1 id="hero-title">A SMALL GIFT<br>CAN GO FAR</h1>
+
+        <p class="hero-text">
+          Give what you can to help bring clean water to communities in need.
+          A few dollars is still a real way to help.
+        </p>
+
+        <a class="primary-button" href="https://www.charitywater.org/donate" target="_blank" rel="noopener noreferrer">
+          GIVE $10
+        </a>
+
+        <p class="small-gift">Small gift. Still worth doing.</p>
+      </div>
+
+      <div class="hero-photo">
+        <img
+          src="img/clean-water-student.jpg"
+          alt="Student washing her hands with clean running water"
+        >
+      </div>
     </section>
 
-    <!-- Story Section: This tells the story of the nonprofit -->
-    <section class="story">
-        <h2>Our Story</h2>
-        <p>
-         
-    </section>
+    <!-- Why clean water matters -->
+    <section class="why-water" aria-labelledby="why-water-title">
+      <div class="section-inner">
+        <p class="section-kicker">WHY CLEAN WATER MATTERS</p>
+        <h2 id="why-water-title">1 in 10 people lack access to drinking water.</h2>
 
-    <!-- Real-World Impact Story Section -->
-    <section class="impact-story">
-        <!-- Section headline -->
-        <h2>Real Impact: Meet Amina</h2>
-        <!-- Container for image and text -->
-        <div class="impact-content">
-            <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
-            <!-- Impact story text -->
-            <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
-            </p>
+        <div class="impact-grid">
+          <article class="impact-card">
+            <h3>HEALTH</h3>
+            <p>Clean water can mean a safer, healthier daily routine.</p>
+          </article>
+
+          <article class="impact-card">
+            <h3>SCHOOL</h3>
+            <p>Less time finding water can mean more time for school.</p>
+          </article>
+
+          <article class="impact-card donation-card">
+            <h3>
+              <span>$5</span>
+              <span>$10</span>
+              <span>$20</span>
+            </h3>
+            <p>Choose an amount that fits your budget and give.</p>
+          </article>
         </div>
+      </div>
     </section>
 
-    <!-- Call-to-Action Section: This encourages visitors to take action -->
-    <section class="call-to-action">
-        <h2>Make a Difference</h2>
-        <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
-        <a href="#" class="donate-button">Donate Now</a>
+    <!-- Compact closing CTA keeps the same simple, hopeful direction -->
+    <section class="closing-cta" aria-labelledby="closing-title">
+      <div class="closing-inner">
+        <div>
+          <p class="section-kicker">SMALL GIFT. REAL ACTION.</p>
+          <h2 id="closing-title">Help bring clean water closer.</h2>
+        </div>
+        <a class="secondary-button" href="https://www.charitywater.org/donate" target="_blank" rel="noopener noreferrer">
+          GIVE WHAT YOU CAN
+        </a>
+      </div>
     </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>charity: water • college student landing page concept</p>
+  </footer>
+
 </body>
 </html>
